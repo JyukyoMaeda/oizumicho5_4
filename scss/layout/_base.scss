@@ -69,9 +69,16 @@ img{
 
 
 
-
+.w1650{
+	width: 85% !important;
+	max-width: 1650px;
+	margin: auto;
+	&.-s100{
+		width: 100% !important;
+	}
+}
 .w1200{
-	width: 95% !important;
+	width: 65% !important;
 	max-width: 1200px;
 	margin: auto;
 	&.-s100{

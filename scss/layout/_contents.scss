@@ -29,60 +29,54 @@
 		.l-contentsBox{// コンテンツ要素
 			width: 100%;
 			position: absolute;
-			
-			//サイト右側中段に表示 （PCのみ）
-			&.-right-topBtn{
-				top: 2.5%;
+			&.-topView{
+				&-sliderArea{
+					top: 48%;
+					left: auto;
+					right: 0;
+					width: 85%;
+					@include mq(tb){
+						top: 50%;
+						left: 45.1%;
+						right: auto;
+						transform: translateY(-50%);
+						width: 55%;
+					}
+				}
+				&-text{
+					top: 87%;
+					left: 82%;
+					width: auto;
+					@include mq(tb){
+						top: 83%;
+						left: 92%;
+					}
+				}
+			}
+			// インタビューエリア
+			&.-interview_btn{
+				top: 75%;
 				left: 50%;
 				transform: translateX(-50%);
-				width: 100%;
-				a{
-					display: block;
-					padding: 8% 23%;
-				}
-			}
-			// サイト下部に表示（SPのみ）
-			&.-right-btmBtn{
-				top: 52.5%;
-				left: 50%;
-				transform: translateX(-50%);
-				width: 100%;
-				a{
-					display: block;
-					padding: 8% 23%;
-				}
-			}
-			//サイト下部に表示 （SPのみ）
-			&.-bottom-rightBtn{
-				top: 0%;
-				left: 75%;
-				transform: translateX(-50%);
-				width: 100%;
-				a{
-					display: block;
-					padding: 0% 24%;
-				}
-			}
-			// サイト下部に表示（SPのみ）
-			&.-bottom-leftBtn{
-				top: 0%;
-				left: 25%;
-				transform: translateX(-50%);
-				width: 100%;
-				a{
-					display: block;
-					padding: 0% 24%;
-				}
-			}
-
-
-			.l-contentsBox--wrapper{
-				width: 100%;
-				height: auto;
+				width: 50%;
 				@include mq(tb){
-					width: 100%;
-					max-width: 1315px;
-					margin: auto;
+					top: 68%;
+					left: 25%;
+					width: 17%;
+				}
+			}
+			// 区画エリア
+			&.-kukaku_btn{
+				@include mq(sp){
+					top: 72%;
+					left: 50%;
+					transform: translateX(-50%);
+					width: 50%;
+				}
+				@include mq(tb){
+					top: 56%;
+					left: 16.72%;
+					width: 15%;
 				}
 			}
 			&.-text{
