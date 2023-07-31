@@ -317,9 +317,12 @@
 		}
 		&.-columnBox02{
 				display: flex;
-				flex-wrap: nowrap;
+				flex-wrap: wrap;
 				align-items: flex-start;
 				justify-content: space-around;
+				@include mq(tb){
+					flex-wrap: nowrap;
+				}
 				.flexItem{
 					width: 100%;
 					padding: 0 5%;

@@ -19,9 +19,9 @@
 				background-size: cover;
 				background-repeat: no-repeat;
 				&.-parallax_bg{//ここに背景を指定する。
-					background-image: url(../images/bg/header_bg_s.jpg);
+					background-image: url(../images/bg/vacation_bg_s.jpg);
 					@include mq(tb){
-						background-image: url(../images/bg/header_bg.jpg);
+						background-image: url(../images/bg/vacation_bg.jpg);
 					}
 				}
 			}
@@ -79,6 +79,17 @@
 					width: 15%;
 				}
 			}
+			// お問い合わせエリア
+			&.-contact_btn{
+				top: 39%;
+				left: 50%;
+				transform: translateX(-50%);
+				@include mq(tb){
+					top: 50%;
+				}
+			}
+
+			
 			&.-text{
 				top: 50%;
 				left: 50%;

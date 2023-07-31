@@ -496,11 +496,11 @@ img {
   background-repeat: no-repeat;
 }
 .l-contents.-img-bg .imgBox.-parallax.-parallax_bg {
-  background-image: url(../images/bg/header_bg_s.jpg);
+  background-image: url(../images/bg/vacation_bg_s.jpg);
 }
 @media screen and (min-width: 767px) {
   .l-contents.-img-bg .imgBox.-parallax.-parallax_bg {
-    background-image: url(../images/bg/header_bg.jpg);
+    background-image: url(../images/bg/vacation_bg.jpg);
   }
 }
 .l-contents.-img-bg .l-contentsBox {
@@ -559,6 +559,16 @@ img {
     top: 56%;
     left: 16.72%;
     width: 15%;
+  }
+}
+.l-contents.-img-bg .l-contentsBox.-contact_btn {
+  top: 39%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media screen and (min-width: 767px) {
+  .l-contents.-img-bg .l-contentsBox.-contact_btn {
+    top: 50%;
   }
 }
 .l-contents.-img-bg .l-contentsBox.-text {
@@ -889,9 +899,14 @@ img {
 }
 .l-flex--area .l-flex--contents.-columnBox02 {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-around;
+}
+@media screen and (min-width: 767px) {
+  .l-flex--area .l-flex--contents.-columnBox02 {
+    flex-wrap: nowrap;
+  }
 }
 .l-flex--area .l-flex--contents.-columnBox02 .flexItem {
   width: 100%;
