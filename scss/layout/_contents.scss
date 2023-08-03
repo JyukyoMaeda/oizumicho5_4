@@ -79,6 +79,17 @@
 					width: 15%;
 				}
 			}
+			&.-kukaku_text{
+				@include mq(sp){
+					top: 100%;
+					left: 50%;
+					transform: translateX(-50%);
+				}
+				@include mq(tb){
+					// top: 88%;
+					top: 97%;
+				}
+			}
 			// お問い合わせエリア
 			&.-contact_btn{
 				top: 39%;
