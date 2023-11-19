@@ -19,12 +19,14 @@
 				background-size: cover;
 				background-repeat: no-repeat;
 				&.-parallax_bg{//ここに背景を指定する。
-					background-image: url(../images/bg/vacation_bg_s.jpg);
+					background-image: url(../images/bg/vacation_w_bg_s.jpg);
+					// background-image: url(../images/bg/vacation_s_bg_s.jpg);
 					@include mq(tb){
-						background-image: url(../images/bg/vacation_bg.jpg);
+						background-image: url(../images/bg/vacation_w_bg.jpg);
+						// background-image: url(../images/bg/vacation_s_bg.jpg);
 					}
 				}
-			}
+			} 
 		}
 		.l-contentsBox{// コンテンツ要素
 			width: 100%;

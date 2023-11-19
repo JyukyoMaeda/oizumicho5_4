@@ -496,11 +496,11 @@ img {
   background-repeat: no-repeat;
 }
 .l-contents.-img-bg .imgBox.-parallax.-parallax_bg {
-  background-image: url(../images/bg/vacation_bg_s.jpg);
+  background-image: url(../images/bg/vacation_w_bg_s.jpg);
 }
 @media screen and (min-width: 767px) {
   .l-contents.-img-bg .imgBox.-parallax.-parallax_bg {
-    background-image: url(../images/bg/vacation_bg.jpg);
+    background-image: url(../images/bg/vacation_w_bg.jpg);
   }
 }
 .l-contents.-img-bg .l-contentsBox {
