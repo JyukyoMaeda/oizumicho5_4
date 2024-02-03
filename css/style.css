@@ -142,7 +142,7 @@ img {
 }
 
 .w1050 {
-  width: 95%;
+  width: 90% !important;
   max-width: 1050px;
   margin: auto;
 }
@@ -476,6 +476,10 @@ img {
   width: 100%;
   height: auto;
 }
+.l-contents.-instaArea {
+  position: relative;
+  padding: 0 10px;
+}
 .l-contents.-img {
   width: 100%;
   height: auto;
@@ -541,14 +545,14 @@ img {
 }
 @media screen and (min-width: 767px) {
   .l-contents.-img-bg .l-contentsBox.-interview_btn {
-    top: 68%;
-    left: 25%;
-    width: 17%;
+    top: 64%;
+    left: 27%;
+    width: 20%;
   }
 }
 @media screen and (max-width: 768px) {
   .l-contents.-img-bg .l-contentsBox.-kukaku_btn {
-    top: 72%;
+    top: 13%;
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
@@ -556,9 +560,9 @@ img {
 }
 @media screen and (min-width: 767px) {
   .l-contents.-img-bg .l-contentsBox.-kukaku_btn {
-    top: 56%;
-    left: 16.72%;
-    width: 15%;
+    top: 11%;
+    left: 0%;
+    width: 22%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -822,6 +826,39 @@ img {
   background: hsla(194, 100%, 11%, 0.6);
 }
 .l-flex--area .l-flex--contents.-contact-box .flexItem:nth-child(4) .l-linkImg {
+  background: hsla(194, 100%, 11%, 0.4);
+}
+.l-flex--area .l-flex--contents.-contact-box_20240202 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .l-flex--area .l-flex--contents.-contact-box_20240202 {
+    flex-wrap: nowrap;
+  }
+}
+.l-flex--area .l-flex--contents.-contact-box_20240202 .flexItem {
+  width: calc(50% - 10px);
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+  .l-flex--area .l-flex--contents.-contact-box_20240202 .flexItem {
+    width: calc(25% - 20px);
+    margin: 0 10px;
+  }
+}
+.l-flex--area .l-flex--contents.-contact-box_20240202 .flexItem:nth-child(1) .l-linkImg {
+  background: #002a37;
+}
+.l-flex--area .l-flex--contents.-contact-box_20240202 .flexItem:nth-child(2) .l-linkImg {
+  background: hsla(194, 100%, 11%, 0.8);
+}
+.l-flex--area .l-flex--contents.-contact-box_20240202 .flexItem:nth-child(3) .l-linkImg {
+  background: hsla(194, 100%, 11%, 0.6);
+}
+.l-flex--area .l-flex--contents.-contact-box_20240202 .flexItem:nth-child(4) .l-linkImg {
   background: hsla(194, 100%, 11%, 0.4);
 }
 .l-flex--area .l-flex--contents.-contact-box_okano {
@@ -2578,6 +2615,12 @@ svg#bottomBtn_right .cls-1 {
 }
 svg#bottomBtn_right .cls-2 {
   fill: none;
+}
+
+.iframeBox.-insta iframe.iframe_inner {
+  width: 960px;
+  aspect-ratio: 4/4.5;
+  border: none;
 }
 
 .l-testBg {

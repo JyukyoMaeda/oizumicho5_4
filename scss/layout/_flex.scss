@@ -219,6 +219,48 @@
 					}
 				}
 			}
+			// 追加_2024_0202
+			&_20240202{
+				display: flex;
+				flex-wrap: wrap;
+				width: 95%;
+				margin: auto;
+				
+				@media screen and (min-width: 768px){
+					flex-wrap: nowrap;
+				}
+				.flexItem{
+					width: calc(50% - 10px);
+					margin: 5px;
+					@media screen and (min-width: 768px){
+						width: calc(25% - 20px);
+						margin: 0 10px;
+					}
+	
+					&:nth-child(1){
+						.l-linkImg{
+							background: $contact-item-1;
+						}
+					}
+					&:nth-child(2){
+						.l-linkImg{
+							background: $contact-item-2;
+						}
+	
+					}
+					&:nth-child(3){
+						.l-linkImg{
+							background: $contact-item-3;
+						}
+	
+					}
+					&:nth-child(4){
+						.l-linkImg{
+							background: $contact-item-4;
+						}
+					}
+				}
+			}
 		}
 		&.-contact-box_okano{
 			display: flex;

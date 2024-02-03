@@ -1,0 +1,13 @@
+.iframeBox{
+    &.-insta{
+        iframe{
+            &.iframe_inner{
+                width: 960px;
+                // height: 1080px;
+                aspect-ratio: 4 / 4.5;
+                border: none;
+                
+            }
+        }
+    }
+}

@@ -1,6 +1,26 @@
 .l-contents{
 	width: 100%;
 	height: auto;
+	&.-instaArea{
+		position: relative;
+		padding: 0 10px;
+		// &::after{
+		// 	content:"";
+		// 	background-image: url(../images/SVG/pickup.svg);
+		// 	background-repeat: no-repeat;
+		// 	width: 120px;
+		// 	height: 120px;
+		// 	position: absolute;
+		// 	top: -4%;
+		// 	left: 68%;
+		// 	@include mq(tb){
+		// 		width: 150px;
+		// 		height: 150px;
+		// 		top: -4%;
+		// 		left: 75%;
+		// 	}
+		// }
+	}
 	&.-img{// 背景画像のみ
 		width: 100%;
 		height: auto;
@@ -62,23 +82,24 @@
 				transform: translateX(-50%);
 				width: 50%;
 				@include mq(tb){
-					top: 68%;
-					left: 25%;
-					width: 17%;
+					top: 64%;
+					left: 27%;
+					width: 20%;
 				}
 			}
 			// 区画エリア
 			&.-kukaku_btn{
 				@include mq(sp){
-					top: 72%;
+					top: 13%;
+					// top: 72%;
 					left: 50%;
 					transform: translateX(-50%);
 					width: 50%;
 				}
 				@include mq(tb){
-					top: 56%;
-					left: 16.72%;
-					width: 15%;
+					top: 11%;
+					left: 0%;
+					width: 22%;
 				}
 			}
 			&.-kukaku_text{
