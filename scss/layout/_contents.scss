@@ -90,7 +90,7 @@
 			// 区画エリア
 			&.-kukaku_btn{
 				@include mq(sp){
-					top: 13%;
+					top: 10.75%;
 					// top: 72%;
 					left: 50%;
 					transform: translateX(-50%);
@@ -98,7 +98,7 @@
 				}
 				@include mq(tb){
 					top: 11%;
-					left: 0%;
+					left: 10%;
 					width: 22%;
 				}
 			}

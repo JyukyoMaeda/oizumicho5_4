@@ -552,7 +552,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .l-contents.-img-bg .l-contentsBox.-kukaku_btn {
-    top: 13%;
+    top: 10.75%;
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
@@ -561,7 +561,7 @@ img {
 @media screen and (min-width: 767px) {
   .l-contents.-img-bg .l-contentsBox.-kukaku_btn {
     top: 11%;
-    left: 0%;
+    left: 10%;
     width: 22%;
   }
 }
